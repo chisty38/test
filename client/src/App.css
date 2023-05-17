@@ -1,0 +1,50 @@
+#testContainer {
+    width: 95%;
+    margin-top: 5vh;
+}
+.pageHeader, #testContainer_Header
+{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+#testContainer_Header #inputFormCommon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: calc(0.5rem + 0.5vw);
+}
+
+#testContainer_Header #inputFormCommon input{
+    padding: 10px;
+    margin: 7px 0px;
+    border-radius: 10px;
+}
+
+#testContainer_Col
+{
+    margin-left: 3vw;
+}
+
+#testContainer_ByDate
+{
+    font-size: calc(0.5rem + 0.5vw);
+    width: 100%;
+    margin: 7px 0px;
+    padding: 10px;
+}
+
+#testContainer_Table {
+    max-height: 75vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-top: 3vh;
+}
+
+#testContainer_Table h5
+    {
+        font-weight: 700;
+    }
