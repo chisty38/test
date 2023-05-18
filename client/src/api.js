@@ -1,2 +1,2 @@
-export const BASE_API='http://localhost:5000'
+export const BASE_API='https://testwizmo.herokuapp.com'
 export const MIDDLEWARE='testapi'

@@ -149,10 +149,10 @@ useEffect(() => {
             initialState={{
                 density: "compact",
               }}
-            //refresh={() => {
-            //  setValues({ ...values, toDate: usaTime, fromDate: usaTime, param:'' });
-            //  fetchDataByDateRange(values.fromDate, values.toDate);
-            //}}
+            refresh={() => {
+              setValues({ ...values, toDate: usaTime, fromDate: usaTime, param:'' });
+              fetchDataByDateRange(usaTime, usaTime);
+            }}
             Title='Shipment Status'
           />
         </Row>
